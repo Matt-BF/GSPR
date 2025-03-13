@@ -1,6 +1,8 @@
 # GSPR
 This repository contains notebooks, scripts and other helper files used in the work published at [link]
 
+Please note many paths are still hardcoded. I am slowly fixing this to point mainly to database file (see below) or otherwise indicate how to (re)generate the original file for analysis. Please open an issue if you have any inquiries.
+
 
 ## Data
 Data generated in this work is available as a [DuckDB](https://duckdb.org/) database, available at the IMG website or in Zenodo.
