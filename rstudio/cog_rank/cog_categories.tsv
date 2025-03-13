@@ -1,0 +1,51 @@
+Category_description	Origin	Rank	Meta	Isolate	Cat
+Replication, recombination and repair	Rank_meta	1	58223	6394	L
+Intracellular trafficking, secretion, and vesicular transport	Rank_meta	2	47856	4578	U
+Transcription	Rank_meta	3	46765	6760	K
+Mobilome: prophages, transposons	Rank_meta	4	43802	6253	X
+General function prediction only	Rank_meta	5	39272	6185	R
+Cell cycle control, cell division, chromosome partitioning	Rank_meta	6	31335	5284	D
+Signal transduction mechanisms	Rank_meta	7	27177	5223	T
+Defense mechanisms	Rank_meta	8	26583	5424	V
+Cell wall/membrane/envelope biogenesis	Rank_meta	9	25304	5588	M
+Posttranslational modification, protein turnover, chaperones	Rank_meta	10	22059	4885	O
+Function unknown	Rank_meta	11	21918	4722	S
+Cell motility	Rank_meta	12	19706	4421	N
+Inorganic ion transport and metabolism	Rank_meta	13	18051	4584	P
+Amino acid transport and metabolism	Rank_meta	14	17388	4609	E
+Carbohydrate transport and metabolism	Rank_meta	15	16806	4456	G
+Coenzyme transport and metabolism	Rank_meta	16	15819	4123	H
+Lipid transport and metabolism	Rank_meta	17	15078	4230	I
+Energy production and conversion	Rank_meta	18	12512	4001	C
+Translation, ribosomal structure and biogenesis	Rank_meta	19	11572	3551	J
+Extracellular structures	Rank_meta	20	11453	1925	W
+Secondary metabolites biosynthesis, transport and catabolism	Rank_meta	21	11154	3689	Q
+Nucleotide transport and metabolism	Rank_meta	22	6783	2678	F
+Cytoskeleton	Rank_meta	23	368	208	Z
+RNA processing and modification	Rank_meta	24	63	39	A
+Chromatin structure and dynamics	Rank_meta	25	54	9	B
+Replication, recombination and repair	Rank_isolate	2	58223	6394	L
+Intracellular trafficking, secretion, and vesicular transport	Rank_isolate	13	47856	4578	U
+Transcription	Rank_isolate	1	46765	6760	K
+Mobilome: prophages, transposons	Rank_isolate	3	43802	6253	X
+General function prediction only	Rank_isolate	4	39272	6185	R
+Cell cycle control, cell division, chromosome partitioning	Rank_isolate	7	31335	5284	D
+Signal transduction mechanisms	Rank_isolate	8	27177	5223	T
+Defense mechanisms	Rank_isolate	6	26583	5424	V
+Cell wall/membrane/envelope biogenesis	Rank_isolate	5	25304	5588	M
+Posttranslational modification, protein turnover, chaperones	Rank_isolate	9	22059	4885	O
+Function unknown	Rank_isolate	10	21918	4722	S
+Cell motility	Rank_isolate	15	19706	4421	N
+Inorganic ion transport and metabolism	Rank_isolate	12	18051	4584	P
+Amino acid transport and metabolism	Rank_isolate	11	17388	4609	E
+Carbohydrate transport and metabolism	Rank_isolate	14	16806	4456	G
+Coenzyme transport and metabolism	Rank_isolate	17	15819	4123	H
+Lipid transport and metabolism	Rank_isolate	16	15078	4230	I
+Energy production and conversion	Rank_isolate	18	12512	4001	C
+Translation, ribosomal structure and biogenesis	Rank_isolate	20	11572	3551	J
+Extracellular structures	Rank_isolate	22	11453	1925	W
+Secondary metabolites biosynthesis, transport and catabolism	Rank_isolate	19	11154	3689	Q
+Nucleotide transport and metabolism	Rank_isolate	21	6783	2678	F
+Cytoskeleton	Rank_isolate	23	368	208	Z
+RNA processing and modification	Rank_isolate	24	63	39	A
+Chromatin structure and dynamics	Rank_isolate	25	54	9	B
