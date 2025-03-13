@@ -1,0 +1,8 @@
+*.slurm.sh
+**cache**
+*.DStore
+**config**
+**.local**
+*.Rhistory
+*.DS_Store
+
