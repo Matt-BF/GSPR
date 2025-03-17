@@ -28,6 +28,30 @@ The database has the following tables:
 - **bgc** &rarr; Biosynthetic Gene Clusters predicted via AntiSMASH and consolidated with BiG-SCAPE.
 - **cog** &rarr; COG categories and COG genes extracted from EggNOG results.
 - **cazy** &rarr; Cazymes in plasmids, predicted via dbCAN.
+- **amp** &rarr; Antimicrobial Peptides (AMPs) in plasmids, predicted via Macrel.
+
+
+## Notebooks
+Analysis was done in several notebooks
+- **amp** &rarr; Analysis of the Antimicrobial peptides results.
+- **amr_results** &rarr; Analysis of the Antimicrobial resistance results.
+- **bgc** &rarr; Analysis of the BGC results.
+- **cluster_analysis** &rarr; Analysis of the pOTU clustering.
+- **cog** &rarr; Analysis of the COG results.
+- **complete_size_host** &rarr; Analysis of the correlations between host origin (Meta or Isolate), host size, plasmid origin and plasmid sizes.
+- **conjscan** &rarr; Analysis of the CONJScan results (conjugation machinery).
+- **consolidate_metadata** &rarr; Notebook that consolidates metadata from IMG/PR, MGnify, PLSDB and Refsoil, which results in the `taxon_metadata` table in the db.
+- **contig_qc** &rarr; Analysis of the Contig QC step, with exploratory analysis to select thresholds for some contig filters (such as `avg_kmer` and `concatemer`) as described in the manuscript.
+- **dbcan** &rarr; Analysis of the Cazymes results.
+- **eggnog** &rarr; Analysis of the EggNOG results.
+- **filter_soil_rhizo_IMG** &rarr; Notebook demonstrating the filters used to keep soil and rhizosphere samples from IMG metadata according to the exclusion terms mentioned in the manuscript
+- **filter_soil_rhizo_MGnify** &rarr; Same as above, but for MGnify.
+- **gtdb_plasmid_intersection** &rarr; Analysis of soil species intersection between GTDB soil taxa and GSPR hosts.
+- **hosts** &rarr; Analysis of the GSPR predicted hosts.
+- **hosts_environment** &rarr; Analysis of which soil habitats GSPR predicted hosts are found, and comparison with which habitats the pOTUs are found.
+
+
+
 
 
 
