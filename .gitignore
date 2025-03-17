@@ -5,4 +5,7 @@
 **.local**
 *.Rhistory
 *.DS_Store
-
+*.gbk
+*.faa
+*.fna
+*.fasta
