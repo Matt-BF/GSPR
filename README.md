@@ -5,7 +5,7 @@ Please note many paths are still hardcoded. I am slowly fixing this to point mai
 
 
 ## Data
-Data generated in this work is available as a [DuckDB](https://duckdb.org/) database, available at the IMG website or in Zenodo.
+Data generated in this work is available as a [DuckDB](https://duckdb.org/) database, available at the IMG website or in [Zenodo](https://doi.org/10.5281/zenodo.15042297).
 
 The database has the following tables:
 
@@ -44,11 +44,28 @@ Analysis was done in several notebooks
 - **contig_qc** &rarr; Analysis of the Contig QC step, with exploratory analysis to select thresholds for some contig filters (such as `avg_kmer` and `concatemer`) as described in the manuscript.
 - **dbcan** &rarr; Analysis of the Cazymes results.
 - **eggnog** &rarr; Analysis of the EggNOG results.
-- **filter_soil_rhizo_IMG** &rarr; Notebook demonstrating the filters used to keep soil and rhizosphere samples from IMG metadata according to the exclusion terms mentioned in the manuscript
+- **filter_soil_rhizo_IMG** &rarr; Notebook demonstrating the filters used to keep soil and rhizosphere samples from IMG metadata 
 - **filter_soil_rhizo_MGnify** &rarr; Same as above, but for MGnify.
 - **gtdb_plasmid_intersection** &rarr; Analysis of soil species intersection between GTDB soil taxa and GSPR hosts.
 - **hosts** &rarr; Analysis of the GSPR predicted hosts.
 - **hosts_environment** &rarr; Analysis of which soil habitats GSPR predicted hosts are found, and comparison with which habitats the pOTUs are found.
+- **lengths** &rarr; Analysis of plasmids sizes.
+- **meta_spacers** &rarr; Analysis of CRISPRs in plasmids, their targets, CRISPRs in metaG contigs, etc.
+- **meta_spacers** &rarr; Analysis of CRISPRs in plasmids, their targets, CRISPRs in metaG contigs, etc.
+- **phylo** &rarr; Notebook to prune GTDB tree and prepare annotation files for decorating it.
+- **plasmid_annotation** &rarr; Analysis of how many genes in plasmids had any annotation.
+- **plasmid_env** &rarr; General analysis, such as which environments the pOTUs are found, enrichment analysis, PCA preparations, etc.
+- **plasmid_env_odds-fisher** &rarr; Calculation of log-odds for plasmid functions.
+- **ptu_num_samples** &rarr; Notebook to check the number of different samples (taxon_oids) per pOTU.
+- **select_soil_rhizo_samples_IMG_MGnify** &rarr; Notebook to filter the exclusion terms out of the IMG and MGnify tables, and consolidate them.
+
+
+## Rstudio folder
+Some figures and analysis was done in R, such as the PCA biplot, the map with the samples lat/lon, the rarefaction analysis and the GSEA. this folder contains the scripts for these analyses as well as the tables need to reproduce them. These tables were generated in the notebooks described above.
+
+## yml_envs
+Contains the `yml` files to recreate the mamba environments used in this work
+
 
 
 
