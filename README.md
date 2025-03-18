@@ -5,7 +5,7 @@ Please note many paths are still hardcoded. I am slowly fixing this to point mai
 
 
 ## Data
-Data generated in this work is available as a [DuckDB](https://duckdb.org/) database, available at the IMG website or in [Zenodo](https://doi.org/10.5281/zenodo.15042297).
+Data generated in this work is available as a [DuckDB](https://duckdb.org/) database, or as parquet files, and is available at the IMG website or in [Zenodo](https://doi.org/10.5281/zenodo.15042297).
 
 The database has the following tables:
 
