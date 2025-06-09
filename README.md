@@ -29,6 +29,7 @@ The database has the following tables:
 - **cog** &rarr; COG categories and COG genes extracted from EggNOG results.
 - **cazy** &rarr; Cazymes in plasmids, predicted via dbCAN.
 - **amp** &rarr; Antimicrobial Peptides (AMPs) in plasmids, predicted via Macrel.
+- **read_mapping* &rarr; Read mapping results of 1623 metagenomes against all plasmids.
 
 
 ## Notebooks
