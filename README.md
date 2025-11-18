@@ -1,5 +1,5 @@
 # GSPR
-This repository contains notebooks, scripts and other helper files used in the work published at [link]
+This repository contains notebooks, scripts and other helper files used in the work published at https://www.nature.com/articles/s41467-025-65102-6
 
 Please note many paths are still hardcoded. I am slowly fixing this to point mainly to database file (see below) or otherwise indicate how to (re)generate the original file for analysis. Please open an issue if you have any inquiries.
 
